@@ -1,0 +1,85 @@
+body, html {
+    margin: 0;
+}
+
+.parallax1{
+    background-image: url("../../../public/assets/bgpastas.jpg");
+    min-height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax12{
+    background-image: url("../../../public/assets/bgpastas.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2{
+    background-image: url("../../../public/assets/bgPizza.jpg");
+    min-height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caption{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.border{
+    background-color: #111;
+    color: white;
+    padding: 25px;
+    font-size: 30px;
+    letter-spacing: 10px ;
+}
+.borderAdmin{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    font-size: 50px;
+    letter-spacing: 10px ;
+}
+.captionAdmin{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+.section{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 200px;
+    background-color: #111;
+    color: white;
+}
+
+.sectionCliente{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 200px;
+    background-color: #111;
+    color: white;
+    top: 30%;
+}
+

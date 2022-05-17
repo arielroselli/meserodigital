@@ -1,0 +1,59 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    background-image: url(./assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.detalleItem{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    padding: 40px;
+
+}
+.detalleImagen{
+    border: solid 5px white;
+    border-radius: 20px;
+}
+
+
+.detallePadre{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    margin-top: 10px;
+}
+.detalleTexto{
+    margin-left: 100px;
+    border: solid 5px white;
+    border-radius: 20px;
+    padding: 20px;
+    min-height: 400px;
+    
+}
+.verDetalles{
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-content: center;
+    margin-bottom: 30px;
+
+    
+}
+
+.botonAgregar{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    align-items: center;
+    
+   
+
+}
+
+.detalleImagen{
+    max-height: 400px;
+}

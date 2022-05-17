@@ -1,0 +1,80 @@
+
+.BodyGeneralEstilo{
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    justify-content: center;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 20px;
+    border: solid 1px black;
+    box-shadow: 10px 10px 10px black;
+    margin-top: 150px;
+
+}
+
+.TablaPedidos{
+
+        background-color: red;
+        width: 100px;
+        padding: 100px;
+    }
+
+
+.contador{
+    display: flex;
+}
+
+.botonCard{
+     margin: 3px;
+}
+
+.botonCardAgregar{
+    margin: 3px;
+    
+}
+
+.cardList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    margin-top: 50px;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+.card{
+    margin: 10px;
+    color: black;
+    font-weight: 700;
+
+}
+.cardImagen {
+    display: block;
+    max-width: 300px;
+    height: auto;
+    transition: all 0.3s linear ;
+}
+.cardImagen:hover {
+    z-index: 1000;
+    transform: scale(1.4);
+    border-radius: 5px;
+}
+
+#root{
+    background: none;
+}
+
+.App{
+    background: none;
+}
+
+
+.descripcion{
+    max-width: fit-content;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+/********************************************* HOVER IMAGEN CARD*/
